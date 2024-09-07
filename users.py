@@ -14,6 +14,7 @@ client = commands.Bot(command_prefix="!", intents=intents)
 stream_channel_id = 1244537836837797929
 
 # you can comment these out if you dont want to get pinged
+# if you do want to get pinged, replace odd_id's value with your discord user ID
 odd_id = 745762346479386686
 stream_ping = f"<@{odd_id}>"
 
